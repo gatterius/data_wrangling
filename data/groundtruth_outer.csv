@@ -1,0 +1,739 @@
+provenance,postcode,price,street_name,bedroom_number,crimerank
+onthemarket_0,M3 1DY,179950,Mirabel Street,2,1467
+onthemarket_1,M3 1NN,225000,Mirabel Street,2,1467
+onthemarket_2,M3 4BB,234950,Potato Wharf,2,23205
+onthemarket_3,M1 5ND,462500,Whitworth Street West,2,4783
+onthemarket_4,M1 5WG,289950,Whitworth Street West,2,4783
+onthemarket_5,M1 5NG,250000,Whitworth Street West,2,4783
+onthemarket_6,M4 1HP,329950,High Street,3,34
+onthemarket_7,M1 5DD,462500,Whitworth Street West,2,4783
+onthemarket_8,M1 5BY,182500,Cambridge Street,2,2461
+onthemarket_9,M1 5NP,197500,New Wakefield Street,2,2461
+onthemarket_10,M15 4TL,182500,City Road,2,3182
+onthemarket_11,M1 2JN,175000,Ducie Street,2,1245
+onthemarket_12,M3 3AT,399950,Hardman Street,2,9783
+onthemarket_13,M3 3AA,285000,Hardman Street,2,9783
+onthemarket_14,M3 3HF,209950,Hardman Street,1,9783
+onthemarket_15,M1 7DP,13000,Parking Space,onthemarket_null_0,2892
+onthemarket_16,M3 4JJ,165000,Woollam Place,2,23205
+onthemarket_17,M15 4QE,182500,City Road East,2,796
+onthemarket_18,M1 2JQ,185000,Ducie Street,2,1245
+onthemarket_19,M3 4AN,193500,Lower Byrom Street,2,23205
+onthemarket_20,M3 4AP,153000,Lower Byrom Street,1,23205
+onthemarket_21,M3 4NJ,179500,Southern Street,2,796
+onthemarket_22,M1 3DA,145000,Aytoun Street,1,708
+onthemarket_23,M4 1PE,129950,Church Street,1,9783
+onthemarket_24,M1 5QJ,92500,Lower Ormond Street,onthemarket_null_1,209
+onthemarket_25,M1 7AB,127950,Granby Row,1,209
+onthemarket_26,M1 7BD,123999,Charles Street,1,2461
+onthemarket_27,M1 1FT,125000,Newton Street,1,708
+onthemarket_28,M4 1ED,159950,High Street,2,9783
+onthemarket_29,M4 1HQ,164950,High Street,2,34
+onthemarket_30,M4 1FS,174950,High Street,2,753
+onthemarket_31,M3 4EP,1350,Watson Street,2,4783
+onthemarket_32,M3 4EH,1400,Watson Street,2,4783
+onthemarket_33,M1 5BD,1600,Whitworth Street West,2,4783
+onthemarket_34,M1 5WQ,2250,Whitworth Street West,3,12168
+onthemarket_35,M2 4AD,125000,Booth Street,1,9783
+onthemarket_36,M3 2BW,1650,Deansgate,2,9783
+onthemarket_37,M3 4LY,1395,Deansgate,2,15184
+onthemarket_38,M3 5NA,1495,The Edge,2,
+onthemarket_39,M1 3DB,1395,Aytoun Street,2,708
+onthemarket_40,M3 4NA,20000,Collier Street,onthemarket_null_2,15184
+onthemarket_41,M2 4WU,2850,King Street,2,9783
+onthemarket_42,M2 4LQ,2200,King Street,2,9783
+onthemarket_43,M3 3BZ,1795,Bridge Street,2,9783
+onthemarket_44,M8 0LA,1225,Jewel House,1,1589
+onthemarket_45,M1 2WH,240000,Chapeltown Street,3,7263
+onthemarket_46,M3 1PJ,134950,Mirabel Street,1,1467
+onthemarket_47,M3 4LP,1595,Watson Street,2,4783
+onthemarket_48,M3 4EF,1400,Watson Street,2,4783
+onthemarket_49,M3 1NG,1300,Mirabel Street,3,1467
+belvoir_0,M22 0AD,149950,Hazelwood Road,2,13187
+belvoir_1,M21 0YA,575000,Withington Road,5,14965
+belvoir_2,M16 8FS,180000,Range Road,2,8079
+belvoir_3,M16 0DZ,195000,Manchester Road,2,5726
+belvoir_4,M16 0DZ,195000,Manchester Road,2,5726
+belvoir_5,M16 0BU,465000,Strathmore Avenue,4,5726
+belvoir_6,M16 9NH,240000,Ayres Road,4,
+belvoir_7,M13 0RH,100000,Barton Road,2,1470
+belvoir_8,M13 0RH,380825,Blossom Street,3,1470
+belvoir_9,M21 0AU,425000,Warwick Road,3,10595
+belvoir_10,M21 8DN,385000,Hardy Lane,3,4966
+belvoir_11,M21 8DN,375000,Hardy Lane,3,4966
+belvoir_12,M22 4JZ,125000,Pepper Close,2,4209
+belvoir_13,M15 6AZ,147500,Denmark Road,2,1755
+belvoir_14,M16 0DZ,200000,Manchester Road,2,5726
+belvoir_15,M9 7HQ,112000,Spindletree Ave,2,11291
+belvoir_16,M1 5WQ,259995,Whitworth Street West,2,12168
+belvoir_17,M9 7JA,125000,Capricorn Road,2,16455
+belvoir_18,M21 7WH,110000,Maitland Avenue,2,5107
+belvoir_19,M13 0RH,169950,Water Street,2,1470
+belvoir_20,M4 1PE,395000,Church Street,2,9783
+belvoir_21,M43 7SP,79000,Holly Bank,2,
+belvoir_22,M4 4BJ,140000,Sharp Street,2,753
+belvoir_23,M6 6LS,48500,Broughton Road,1,
+belvoir_24,M4 4TG,86000,Ludgate Hill,belvoir_null_182,12320
+belvoir_25,M16 8HA,675,Spring Bridge Road,2,14965
+belvoir_26,M1 6HR,115000,Princess Street,1,708
+belvoir_27,M1 5TF,200000,Lower Chatham Street,2,2461
+belvoir_28,M15 4QG,265000,Chester Road,2,15184
+belvoir_29,M16 0DZ,210000,Manchester Road,2,5726
+belvoir_30,M16 0DZ,210000,Manchester Road,2,5726
+belvoir_31,M16 0DZ,210000,Manchester Road,2,5726
+belvoir_32,M35 0AX,79500,Brown Street,2,
+belvoir_33,M5 3WJ,99950,Ordsall Lane,2,
+belvoir_34,M14 5BB,585,Hope Road,1,5904
+belvoir_35,M5 3NB,110000,Ordsall Lane,2,
+belvoir_36,M4 4BZ,125000,Sharp Street,2,12320
+belvoir_37,M15 4TD,160000,City Road East,2,12168
+belvoir_38,M19 2LZ,995,Burnside Drive,3,6941
+belvoir_39,M6 7DZ,695,Chasley Road,1,
+belvoir_40,M9 8QB,725,Lakeside Rise,3,4731
+belvoir_41,M21 9JN,825,Edge Lane,2,14724
+belvoir_42,M4 1PN,860,Church Street,2,34
+belvoir_43,M35 0DF,550,Grimshaw Street,4,
+belvoir_44,M1 3PW,1550,Brazil Street,2,708
+belvoir_45,M9 8AS,550,"Hilbury Avenue,",2,2156
+belvoir_46,M4 4FQ,950,Lord Street,2,17255
+belvoir_47,M18 7TP,650,Hamsterley Avenue,3,6408
+belvoir_48,M4 6AH,950,Radium Street,2,733
+belvoir_49,M9 8DR,395,Old School Drive,1,3074
+belvoir_50,M6 7DZ,975,Chaseley Road,2,
+belvoir_51,M15 6BN,375,Cavendish Street,1,8522
+belvoir_52,M9 8QA,600,Bellfield Close,2,3074
+belvoir_53,M21 0RD,1400,Manley Road,4,2417
+belvoir_54,M8 4NA,500,Middleton Road,2,176
+belvoir_55,M13 0RH,775,Water Street,2,1470
+belvoir_56,M9 7HQ,575,Spindletree Avenue,2,11291
+belvoir_57,M13 9DP,1300,Lauderdale Crescent,4,12632
+belvoir_58,M4 4BW,750,Ludgate Hill,2,12320
+belvoir_59,M16 8AU,895,Railton Avenue,3,4203
+belvoir_60,M14 5BB,795,Hope Road,3,5904
+belvoir_61,M13 0RH,750,Navigation Street,1,1470
+belvoir_62,M13 0RH,895,Navigation Street,2,1470
+belvoir_63,M4 4BW,775,Ludgate Hill,2,12320
+belvoir_64,M21 7BD,1150,Chelsfield Grove,4,5044
+belvoir_65,M1 3DA,1200,Aytoun Street,2,708
+belvoir_66,M15 6FD,1100,Boundry Lane,3,6906
+belvoir_67,M14 5RH,925,"Upper Park Road,",3,2823
+belvoir_68,M1 5DD,2700,Whitworth Street West,2,4783
+belvoir_69,M13 0RH,3500,Blossom Street,3,1470
+belvoir_70,M14 5BB,650,Hope Road,2,5904
+belvoir_71,M15 5AX,775,Greenheys Lane West,2,3277
+belvoir_72,M1 5BD,1200,Whitworth Street West,2,4783
+belvoir_73,M1 6BD,1100,Princess Street,2,2461
+belvoir_74,M1 5QE,1200,Lower Ormond Street,2,209
+belvoir_75,M4 6JW,950,Radium Street,2,733
+belvoir_76,M8 4FL,725,Sinclair Avenue,3,6320
+belvoir_77,M4 4AJ,950,Hornbeam Way,2,17255
+belvoir_78,M20 4NE,585,Mauldeth Road,1,1798
+belvoir_79,M8 8YE,600,Fairy Lane,2,3501
+belvoir_80,M15 4QU,belvoir_null_0,Jordan Street,3,12168
+belvoir_81,M8 8BT,600,Waterloo Road,2,3501
+belvoir_82,M4 6JW,950,Ancoats,2,733
+belvoir_83,M8 8BJ,600,Larch Gardens,2,2840
+belvoir_84,M15 4LG,775,Blantyre Street,1,23205
+belvoir_85,M13 0NW,675,Birch Lane,2,957
+belvoir_86,M13 0RH,1395,Navigation Street,3,1470
+belvoir_87,M4 7AJ,950,Pollard Street,2,3998
+belvoir_88,M15 6GH,795,Loxford Street,2,6906
+belvoir_89,M15 5JP,750,Hulme High Street,2,3277
+belvoir_90,M5 3WJ,600,Ordsall Lane,2,
+belvoir_91,M15 6BN,375,Cavendish Street,1,8522
+belvoir_92,M1 5EB,1400,Whitworth Street West,2,2461
+belvoir_93,M15 5JR,795,Hulme High Street,2,3277
+belvoir_94,M13 0RH,850,Water Street,2,1470
+belvoir_95,M4 4TJ,775,Ludgate Hill,2,12320
+belvoir_96,M15 6AZ,850,Denmark Road,2,1755
+belvoir_97,M15 4TD,1100,City Road East,2,12168
+belvoir_98,M15 4TA,1100,City Road East,2,12168
+belvoir_99,M14 5BB,650,Hope Road,2,5904
+belvoir_100,M15 5QH,1400,Bold Street,4,4022
+belvoir_101,M4 4AD,950,Masson Place,1,9684
+belvoir_102,M15 5JS,795,Hulme High Street,2,3277
+belvoir_103,M40 9DH,725,Kenyon Lane,3,4052
+belvoir_104,M46 0BW,550,Hope Fold Avenue,2,
+belvoir_105,M15 4QY,1150,Commercial Street,2,796
+belvoir_106,M15 4QX,1275,Jordan Street,2,12168
+belvoir_107,M9 7GH,575,Victoria Avenue East,2,16455
+belvoir_108,M4 5BW,belvoir_null_1,Cotton Street,3,7263
+belvoir_109,M15 4QX,1550,Jordan Street,3,12168
+belvoir_110,M11 1BE,795,Old Lane,2,3219
+belvoir_111,M1 5ED,belvoir_null_2,Whitworth Street West,2,2461
+belvoir_112,M9 8NT,675,Oakshaw Close,3,3074
+belvoir_113,M14 5BB,675,Hope Road,2,5904
+belvoir_114,M45 7EP,675,"Maple Avenue,",3,
+belvoir_115,M15 4TB,795,City Road East,2,12168
+belvoir_116,M15 4QX,860,Jordan Street,2,12168
+belvoir_117,M15 4QW,795,Commercial Street,1,796
+belvoir_118,M18 8GN,550,Brightman Street,3,4379
+belvoir_119,M4 4BW,775,Ludgate Hill,2,12320
+belvoir_120,M5 5JJ,300,Weaste Lane,1,
+belvoir_121,M13 0RH,950,Mirabel Street,2,1470
+belvoir_122,M8 5DZ,500,St Marys Hall Road,2,332
+belvoir_123,M15 4QH,860,Little Peter Street,1,796
+belvoir_124,M4 4BG,600,Simpson Street,1,753
+belvoir_125,M4 4AD,775,Every Street,2,9684
+belvoir_126,M4 4BZ,775,Sharp Street,2,12320
+belvoir_127,M13 0RH,725,Longfield Centre,2,1470
+belvoir_128,M4 6BU,575,Lampwick Lane,1,3998
+belvoir_129,M9 8QE,550,Lakeside Rise,2,4731
+belvoir_130,M45 7FW,675,Lime Avenue,3,
+belvoir_131,M16 9LU,675,Stamford Street,2,
+belvoir_132,M9 8QD,500,Lakeside Rise,2,4731
+belvoir_133,M11 3TW,775,Hartwell Close,2,1174
+belvoir_134,M40 5LH,550,Alloway Walk,3,704
+belvoir_135,M9 8QB,500,Old Market Street,2,4731
+belvoir_136,M21 0SF,585,Egerton Road North,1,6927
+belvoir_137,M8 5EA,belvoir_null_3,Rectory Road,2,332
+belvoir_138,M9 8QE,600,Lakeside Rise,2,4731
+belvoir_139,M9 8QB,500,Old Market Street,2,4731
+belvoir_140,M9 8QB,500,Old Market Street,2,4731
+belvoir_141,M8 4JW,belvoir_null_4,Sharnbrook Walk,1,10623
+belvoir_142,M15 5JP,795,Hulme High Street,2,3277
+belvoir_143,M40 3AN,550,Colclough Close,3,812
+belvoir_144,M45 7HA,675,Phillips Place,3,
+belvoir_145,M9 8NJ,500,Slack Road,2,3074
+belvoir_146,M45 7SZ,500,George Street,2,
+belvoir_147,M13 0RH,675,Shelley Road,3,1470
+belvoir_148,M9 8QB,500,Old Market Street,2,4731
+belvoir_149,M4 4BW,850,"Ludgate Hill,",2,12320
+belvoir_150,M15 5JP,795,Hulme High Street,2,3277
+belvoir_151,M9 8QE,belvoir_null_5,Lakeside Rise,4,4731
+belvoir_152,M9 6HJ,550,Sidley Avenue,3,9643
+belvoir_153,M9 8QB,500,Lakeside Rise,2,4731
+belvoir_154,M9 8NW,550,Maplewood Close,3,3074
+belvoir_155,M9 8NW,500,Maplewood Close,2,3074
+belvoir_156,M45 7ET,550,Sefton Street,3,
+belvoir_157,M1 5WQ,POA,Whitworth Street West,belvoir_null_183,12168
+belvoir_158,M8 4NA,belvoir_null_6,Sourh Lodge,2,176
+belvoir_159,M8 0AR,600,Martingale Court,2,7261
+belvoir_160,M8 4NA,550,Middleton Court,3,176
+belvoir_161,M8 5QE,belvoir_null_7,Saddlecote Close,4,4828
+belvoir_162,M35 9WP,895,Medlock Road,3,
+belvoir_163,M9 8DR,belvoir_null_8,Old School Drive,1,3074
+belvoir_164,M8 4LQ,550,Mosslee Avenue,3,
+belvoir_165,M15 4QU,950,Jordan Street,2,12168
+belvoir_166,M8 4HG,500,Melton Road,2,332
+belvoir_167,M21 0SD,POA,Wilbraham Road,belvoir_null_184,6927
+belvoir_168,M7 4WU,450,Bury New Road,1,
+belvoir_169,M9 6HJ,550,Sidley Avenue,3,9643
+belvoir_170,M13 0RH,85000,Ainsworth Road,2,1470
+belvoir_171,M13 0RH,492500,Longford Avenue,5,1470
+belvoir_172,M13 0RH,895,Poplar Drive,3,1470
+belvoir_173,M13 0RH,POA,Blossom Street,3,1470
+belvoir_174,M13 0RH,175000,Bury Street,2,1470
+belvoir_175,M13 0RH,249950,Navigation Street,3,1470
+belvoir_176,M13 0RH,500,Ivy Graham Close,1,1470
+belvoir_177,M13 0RH,170000,Water Street,2,1470
+belvoir_178,M13 0RH,239950,Watson Street,2,1470
+belvoir_179,M13 0RH,POA,Blossom Street,2,1470
+belvoir_180,M13 0RH,725,Longfield Centre,2,1470
+belvoir_181,M13 0RH,675,Durnford Street,3,1470
+belvoir_182,M13 0RH,950,Blossom Street,1,1470
+belvoir_183,M13 0RH,675,Lymouth Court,3,1470
+belvoir_184,M13 0RH,belvoir_null_9,Cleminson Street,2,1470
+belvoir_185,M13 0RH,belvoir_null_10,Kings Close,4,1470
+belvoir_186,M13 0RH,1695,Beetham Tower,2,1470
+belvoir_187,M13 0RH,belvoir_null_11,Knowles Street,2,1470
+belvoir_188,M13 0RH,550,Mayfair Avenue,3,1470
+belvoir_189,M13 0RH,1500,Duke Street,2,1470
+belvoir_190,M13 0RH,1275,Clowes Street,2,1470
+belvoir_191,M13 0RH,850,Spinningfields,1,1470
+belvoir_192,M13 0RH,750,Mirabel Street,1,1470
+belvoir_193,M13 0RH,695,Water Street,1,1470
+belvoir_194,M13 0RH,795,Water Street,2,1470
+belvoir_195,M13 0RH,495,Joshua Lane,2,1470
+belvoir_196,M13 0RH,1400,Prestwich Park Road South,4,1470
+belvoir_197,M13 0RH,belvoir_null_12,Orange Hill Road,4,1470
+belvoir_198,M13 0RH,860,Flint Glass Wharf,2,1470
+belvoir_199,M13 0RH,500,Oakhurst Gardens,2,1470
+belvoir_200,M13 0RH,550,Ruskin Road,3,1470
+belvoir_201,M13 0RH,895,Sheepfoot Lane,3,1470
+belvoir_202,M13 0RH,725,George Street,3,1470
+belvoir_203,M13 0RH,500,Lowther Road,1,1470
+belvoir_204,M13 0RH,belvoir_null_13,Old Market Street,1,1470
+belvoir_205,M13 0RH,600,Princess Road,2,1470
+belvoir_206,M13 0RH,675,Milton Road,3,1470
+belvoir_207,M13 0RH,860,Spinningfields,1,1470
+belvoir_208,M13 0RH,1350,Beetham Tower,1,1470
+belvoir_209,M13 0RH,675,Ranlesham Street,3,1470
+agent_0,M5 4TD,137495,Ordsall Lane,2,
+agent_1,M3 5DW,189950,Chapel Street,2,
+agent_2,SK12 2JN,675000,Homestead Road,2,
+agent_3,M21 8DY,549950,South Drive,3,4966
+agent_4,M1 5BY,950000,Cambridge Street,2,2461
+agent_5,L8 5RS,109950,Sefton Street,1,
+agent_6,M3 6EN,174995,Adelphi Street,3,
+agent_7,M50 2BA,178500,Media City UK,2,
+agent_8,M50 1AU,695,Pilgrims Way,2,
+agent_9,M50 1AZ,695,Pilgrims Way,2,
+agent_10,M50 1AW,595,Pilgrims Way,1,
+agent_11,M3 7DX,875,Bury Street,2,
+agent_12,M30 0SW,575,Devonshire Road,2,
+agent_13,M3 7EL,995,Blackfriars Road,3,
+agent_14,M1 5BY,895,Cambridge Street,1,2461
+rightmove_0,M14 6HZ,395,Wilmslow Road,1,9947
+rightmove_1,M8 8US,3000000,Holborn Avenue,,1589
+rightmove_2,M30 0DR,3325000,Wellington Road,45,
+rightmove_3,M20 2RQ,,Stenner Lane,8,16648
+rightmove_4,M45 7NT,1800000,Ringley Park,5,
+rightmove_5,M3 4LP,,Watson Street,3,4783
+rightmove_6,M43 7WH,1500000,Shrewsbury Road,8,
+rightmove_7,M21 7QU,,Haddon Road,6,5107
+rightmove_8,M20 6XD,1400000,Elm Road,6,9389
+rightmove_9,M27 0YF,1300800,Worsley Street,,
+rightmove_10,M25 7LH,1295000,Ringley Road,5,
+rightmove_11,M3 4EP,,Watson Street,3,4783
+rightmove_12,M25 7LN,1295000,Ringley Road,5,
+rightmove_13,M45 7LX,1295000,Ringley Road,5,
+rightmove_14,M22 4FR,1250000,Palatine Road,7,6686
+rightmove_15,M5 4BE,,Brunel Avenue,,
+rightmove_16,M45 7LE,1195000,Ringley Road,5,
+rightmove_17,M30 9ED,1200000,Stafford Road,5,
+rightmove_18,M30 9HN,1200000,Stafford Road,7,
+rightmove_19,M28 2WR,1200000,Chatsworth Road,4,
+rightmove_20,M28 2NG,1191000,Sefton Drive,5,
+rightmove_21,M28 2NT,995000,Chatsworth Road,5,
+rightmove_22,M43 7WA,1000000,Shrewsbury Road,6,
+rightmove_23,M21 0UH,1050000,Cavendish Terrace/ Corkland Road/Wilbraham Road,,6927
+rightmove_24,M43 7WC,1000000,Shrewsbury Road,6,
+rightmove_25,M43 7WD,1000000,Shrewsbury Road,6,
+rightmove_26,M43 7WE,1000000,Shrewsbury Road,6,
+rightmove_27,M12 5NL,1000000,Bennett Street,,12001
+rightmove_28,M20 2GN,995000,Barlow Moor Road,4,9389
+rightmove_29,M14 6UD,995000,Clifton Avenue,19,1798
+rightmove_30,M13 0FN,575,Hathersage Road,1,3973
+rightmove_31,M25 9PE,999000,Prestwich Park Road South,5,
+rightmove_32,M7 4JJ,950000,Old Hall Road,5,
+rightmove_33,M28 2RX,960000,Greenleach Lane,6,
+rightmove_34,M25 0DN,925000,Sheepfoot Lane,4,
+rightmove_35,M25 0BL,925000,Sheepfoot Lane,4,
+rightmove_36,M7 4GZ,950000,Upper Park Road,6,
+rightmove_37,M6 8QN,925000,Manor Road,5,
+rightmove_38,M20 2NU,927000,Old Lansdowne Road,5,3347
+rightmove_39,M21 9JH,930000,Edge Lane,,18940
+rightmove_40,M13 0YL,950000,Dickenson Road,,1470
+rightmove_41,M21 9JF,900000,Edge Lane,,14724
+rightmove_42,M1 6DE,925000,Princess Street,17,708
+rightmove_43,M28 2TL,920000,Broadoak Road,4,
+rightmove_44,M28 2SQ,899950,Hazelhurst Road,5,
+rightmove_45,M1 5QA,,Oxford Road,,209
+rightmove_46,M18 7LP,675,Brighton Range,3,2497
+rightmove_47,M50 2UD,700,Hudson Court,1,
+rightmove_48,M50 2UE,650,Lexington Court,1,
+rightmove_49,M2 4WU,,King Street,,9783
+rightmove_50,M40 8BG,575,Tadcaster Drive,3,882
+rightmove_51,M24 6DD,,Union Street,,
+rightmove_52,M2 4LQ,,King Street,,9783
+rightmove_53,M4 4TG,850,Ludgate Hill,2,12320
+rightmove_54,M1 1EA,,Lever Street,,708
+rightmove_55,M25 3HH,575,Herbert Street,2,
+rightmove_56,M15 6AP,775,Higher Cambridge Street,2,8522
+rightmove_57,M4 4DS,925,Dyche Street,2,12320
+rightmove_58,M5 3EQ,,Exchange Quay,,
+rightmove_59,M20 6FJ,595,Fog Lane,1,7628
+rightmove_60,M3 7NE,1150,Greengate,3,
+rightmove_61,M5 3FP,625,Taylorson Street South,1,
+rightmove_62,M7 1AA,600,Oriel Gardens,1,
+rightmove_63,M22 8UA,495,Longhey Road,2,4209
+rightmove_64,M4 4BW,900,Ludgate Hill,2,12320
+rightmove_65,M30 9BS,695,Winchester Road,3,
+rightmove_66,M13 0JR,575,Hathersage Road,1,2823
+rightmove_67,M20 4XQ,850,Henwood Road,2,3997
+rightmove_68,M14 6WN,505,Ladybarn Road,1,952
+rightmove_69,M19 3DQ,550,Brook Avenue,2,7936
+rightmove_70,M13 0BB,1000,Upper West Grove,3,3973
+rightmove_71,M14 6DD,1700,Mornington Crescent,4,3752
+rightmove_72,M25 9WS,450,George Street,2,
+rightmove_73,M21 0AT,410,Keppel Road,1,10595
+rightmove_74,M14 5LY,825,Hadfield Close,2,908
+rightmove_75,M1 2HG,1200,Dale Street,2,2892
+rightmove_76,M13 9ER,1500,Aspull Walk,4,12632
+rightmove_77,M1 3NF,1650,M1 3NF,1,708
+rightmove_78,M3 5JZ,800,Chapel Street,2,
+rightmove_79,M5 3FN,595,Taylorson Street South,1,
+rightmove_80,M14 5AP,1400,Wilmslow Road,4,1455
+rightmove_81,M30 7NA,350,Liverpool Road,1,
+rightmove_82,M16 0BH,550,Upper Chorlton Road,4,11209
+rightmove_83,M16 7RQ,575,Upper Chorlton Road,1,4203
+rightmove_84,M20 4ZD,450,Central Road,1,11303
+rightmove_85,M16 0BQ,900,Cromwell Avenue,3,11209
+rightmove_86,M22 1UG,700,Cotefield Road,2,10211
+rightmove_87,M14 5QL,440,Daisy Bank Road,,5904
+rightmove_88,M30 9ES,575,Clarendon Road,2,
+rightmove_89,M16 7QR,795,Norton Street,3,
+rightmove_90,M32 0GB,850,Avondale Crescent,3,
+rightmove_91,M14 7JJ,850,Broadfield Road,4,1969
+rightmove_92,M1 6LT,800,Whitworth Street,1,2461
+rightmove_93,M3 2BW,995,Deansgate,2,9783
+rightmove_94,M14 4HL,780,Parkfield Avenue,3,634
+rightmove_95,M14 4FZ,780,Parkfield Avenue,3,5085
+rightmove_96,M13 0YG,750,Greville Street,3,1465
+rightmove_97,M20 4ZE,395,Goulden Road,,11303
+rightmove_98,M16 7RQ,3200000,Upper Chorlton Road,,4203
+rightmove_99,M20 2UD,1250000,Palatine Road,7,7499
+rightmove_100,M22 4ET,725,Palatine Road,2,6686
+rightmove_101,M45 7XQ,999950,Ringley Chase,5,
+rightmove_102,M25 9PF,900000,Prestwich Park Road South,5,
+rightmove_103,M1 7AG,,Princess Street,,708
+rightmove_104,M25 1ES,695,Grosvenor Street,3,
+rightmove_105,M1 4LF,895,Dickinson Street,2,708
+rightmove_106,M20 6TD,650,Atwood Road,,8015
+rightmove_107,M20 6RX,900,Ventnor Road,2,13551
+rightmove_108,M1 6NG,995,Princess Street,2,209
+rightmove_109,M20 2UA,895000,Holme Road,4,7499
+rightmove_110,M2 4NH,2200,King Street,2,9783
+rightmove_111,M16 9AE,1200,East Union Street,3,
+rightmove_112,M2 2JG,,Brown Street,,9783
+rightmove_113,M13 0FE,575,Hathersage Road,1,3973
+rightmove_114,M13 0HY,575,Hathersage Road,1,2823
+rightmove_115,M1 3LZ,800,Sackville Street,1,708
+rightmove_116,M1 3NJ,935,"Sackville Place, Bombay Street",2,209
+rightmove_117,M35 9BS,495,Wrigley Head,2,
+rightmove_118,M1 3GW,775,Whitworth Street,1,2892
+zoopla_0,M4 4BR,229950,Angel Street,2,753
+zoopla_1,M60 0AG,200000,Angel Street,1,753
+zoopla_2,M4 5BA,139995,Redhill Street,1,7263
+zoopla_3,M4 5BB,149995,Redhill Street,1,1245
+zoopla_4,M4 5BF,129995,Redhill Street,1,1245
+zoopla_5,M4 4BC,170000,Angel Street,1,
+zoopla_6,M4 5BS,180000,Pickford Street,2,1245
+zoopla_7,M15 4NP,202500,Great Jackson Street,2,796
+zoopla_8,M15 5JP,125000,Hulme High Street,2,3277
+zoopla_9,M4 4BI,210000,Simpson Street,2,
+zoopla_10,M4 7JA,180000,Pollard Street,2,3998
+zoopla_11,M1 3GY,140000,Cobourg Street,1,2892
+zoopla_12,M1 6DE,230000,Asia House,2,708
+zoopla_13,M15 4TL,190000,City Road,2,3182
+zoopla_14,M1 5WW,229950,Whitworth Street West,2,2461
+zoopla_15,M15 4HZ,250000,Angel Street,1,1259
+zoopla_16,M4 5BC,119995,Redhill Street,1,
+zoopla_17,M4 5BE,150000,Redhill Street,2,1245
+zoopla_18,M4 4BA,240000,Angel Street,2,753
+zoopla_19,M4 4BB,169950,Angel Street,1,753
+cotswoldlettings_0,OX7 4NN,1275,Jubilee Cottages,2,29621
+cotswoldlettings_1,OX7 5HB,825,Alfred Terrace,3,24997
+cotswoldlettings_2,OX7 6BP,1895,Church Street,4,31210
+cotswoldlettings_3,GL56 0XU,1395,Fosseway,5,
+cotswoldlettings_4,OX7 5BL,625,Albion Street,1,23731
+cotswoldlettings_5,OX7 5EE,575,Burford Road,1,24909
+cotswoldlettings_6,OX7 5NT,800,Church Street,2,24909
+cotswoldlettings_7,OX7 5TN,550,Dunthrop Road,1,23231
+cotswoldlettings_8,cotswoldlettings_null_0,750,Finsbury Place,2,
+cotswoldlettings_9,OX7 5PR,950,Main Street,3,23231
+cotswoldlettings_10,OX7 5NR,600,Over Norton Road,1,24909
+cotswoldlettings_11,CV36 4DA,750,Telegraph Street,2,
+cotswoldlettings_12,cotswoldlettings_null_1,750,The Hollies,2,
+cotswoldlettings_13,GL54 1BP,725,Union Street,2,
+cotswoldlettings_14,OX7 5HB,825,Alfred Terrace,3,24997
+cotswoldlettings_15,OX7 4NN,1275,Jubilee Cottages,2,29621
+cotswoldlettings_16,OX7 4LB,895,Litchfield Close,3,29621
+cotswoldlettings_17,OX7 5UW,795,Norton Park,2,24909
+cotswoldlettings_18,OX7 5PX,875,Over Norton Park,cotswoldlettings_null_31,23231
+cotswoldlettings_19,GL56 9NB,1295,Beceshore Close,4,
+cotswoldlettings_20,OX7 5DZ,1100,Burford Road,4,23731
+cotswoldlettings_21,OX7 4NN,1275,Jubilee Cottages,2,29621
+cotswoldlettings_22,OX7 5PR,1200,Main Street,3,23231
+cotswoldlettings_23,OX7 5PT,1775,The Green,4,23231
+cotswoldlettings_24,GL56 9NB,1295,Beceshore Close,4,
+cotswoldlettings_25,OX7 6BP,1895,Church Street,4,31210
+cotswoldlettings_26,GL56 0XU,1395,Fosseway,5,
+cotswoldlettings_27,OX7 5PX,1995,Over Norton Park,4,23231
+jpknight_0,OX10 0LR,650000,Wantage Road,,25710
+jpknight_1,OX10 9LB,850000,Wallingford Road,17,18506
+jpknight_2,OX11 9BG,950000,Sires Hill,,22228
+jpknight_3,OX11 9DD,785000,Baker Street,,30917
+jpknight_4,OX11 9EG,1295000,Thorpe Street,,30917
+jpknight_5,OX11 9EG,680000,Thorpe Street,5,30917
+jpknight_6,RG7 6TE,669950,The Slade,,
+jpknight_7,RG8 8LX,650000,The Triangle,4,
+jpknight_8,RG8 8LY,975000,Blandys Lane,,
+jpknight_9,RG8 8LY,875000,Blandys Lane,,
+jpknight_10,OX10 6HQ,750000,The Street,jpknight_null_0,32065
+jpknight_11,OX10 7EU,699950,Wallingford Road,jpknight_null_1,28408
+jpknight_12,OX11 9BA,775000,Wallingford Road,jpknight_null_2,30917
+jpknight_13,OX11 9BG,899950,Sires Hill,jpknight_null_3,22228
+jpknight_14,OX11 9DD,785000,Baker Street,jpknight_null_4,30917
+jpknight_15,OX11 9EG,680000,Thorpe Street,jpknight_null_5,30917
+jpknight_16,OX11 9EG,1295000,Thorpe Street,jpknight_null_6,30917
+jpknight_17,RG8 8LY,975000,Blandys Lane,jpknight_null_7,
+jpknight_18,RG8 8LY,875000,Blandys Lane,jpknight_null_8,
+jpknight_19,RG8 8NU,1695000,Bethesda Street,jpknight_null_9,
+jpknight_20,OX10 0LR,650000,Wantage Road,jpknight_null_10,25710
+jpknight_21,OX10 0RL,675000,Monks Mead,jpknight_null_11,32319
+jpknight_22,OX10 9GH,550000,Hanover Court,jpknight_null_12,27599
+jpknight_23,OX10 9HF,539950,Caps Lane,jpknight_null_13,18506
+jpknight_24,OX10 9HR,580000,The Street,jpknight_null_14,18506
+jpknight_25,OX10 9NR,539950,Pound Lane,jpknight_null_15,18506
+jpknight_26,OX10 9PP,565000,Church Road,jpknight_null_16,17932
+jpknight_27,OX11 9AN,599950,Anchor Lane,jpknight_null_17,30917
+jpknight_28,RG7 6TE,669950,The Slade,jpknight_null_18,
+jpknight_29,RG8 8LX,599000,The Triangle,jpknight_null_19,
+jpknight_30,OX10 6RS,485000,Paddock Close,3,31506
+jpknight_31,OX10 7HR,499950,Queen Street,,28408
+jpknight_32,OX10 7PG,475000,Mount Farm Cottage,4,20506
+jpknight_33,OX10 8HN,445000,Barncroft,4,22519
+jpknight_34,OX10 9HF,625000,Caps Lane,1,18506
+jpknight_35,OX10 9NT,499950,Ilges Lane,15,18506
+jpknight_36,OX10 9PP,565000,Church Road,4,17932
+jpknight_37,OX11 9AN,599950,Anchor Lane,,30917
+jpknight_38,OX11 9DD,449950,Baker Street,4,30917
+jpknight_39,OX11 9EL,500000,Fullers Road,3,30917
+jpknight_40,OX10 6RS,459950,Paddock Close,jpknight_null_20,31506
+jpknight_41,OX10 6RS,425000,Paddock Close,jpknight_null_21,31506
+jpknight_42,OX10 7PG,449950,Mount Farm Cottage,jpknight_null_22,20506
+jpknight_43,OX10 8HN,445000,Barncroft,jpknight_null_23,22519
+jpknight_44,OX10 9GZ,415000,Ferry Lane,jpknight_null_24,18506
+jpknight_45,OX10 9NT,499950,Ilges Lane,jpknight_null_25,18506
+jpknight_46,OX10 9QX,415000,Queens Road,jpknight_null_26,17932
+jpknight_47,OX11 9DD,449950,Baker Street,jpknight_null_27,30917
+jpknight_48,OX11 9EL,500000,Fullers Road,jpknight_null_28,30917
+jpknight_49,OX44 7XR,475000,Brookhampton Close,jpknight_null_29,22453
+jpknight_50,OX10 0LG,430000,Nelson Close,4,25710
+jpknight_51,OX10 0NY,370000,Radnor Road,3,25710
+jpknight_52,OX10 0QY,361000,Kings Orchard,4,32319
+jpknight_53,OX10 6NG,375000,Sands Way,4,31506
+jpknight_54,OX10 6RS,425000,Paddock Close,3,31506
+jpknight_55,OX10 8FE,362500,Millington Road,4,22519
+jpknight_56,OX10 9BX,395000,Barley Close,4,27599
+jpknight_57,OX10 9GY,365000,Schuster Close,4,18506
+jpknight_58,OX10 9LL,400000,Papist Way,5,18506
+jpknight_59,OX10 9QN,369950,Charles Road,3,18506
+jpknight_60,OX10 6LY,329950,Honey Cottage,jpknight_null_30,14466
+jpknight_61,OX10 6NG,365000,Sands Way,jpknight_null_31,31506
+jpknight_62,OX10 8DQ,324950,Robert Sparrow Gardens,jpknight_null_32,28771
+jpknight_63,OX10 8FE,362500,Millington Road,jpknight_null_33,22519
+jpknight_64,OX10 8HP,379950,St. Georges Road,jpknight_null_34,19044
+jpknight_65,OX10 8LA,335000,Rowland Close,jpknight_null_35,19044
+jpknight_66,OX10 9BA,410000,Trenchard Close,jpknight_null_36,27599
+jpknight_67,OX10 9GY,365000,Schuster Close,jpknight_null_37,18506
+jpknight_68,OX10 9LL,400000,Papist Way,jpknight_null_38,18506
+jpknight_69,OX12 8RU,325000,Ginge Road Cottages,jpknight_null_39,31069
+jpknight_70,OX10 0FE,319950,Regency Close,3,8053
+jpknight_71,OX10 8AB,321000,Sinodun Road,,22519
+jpknight_72,OX10 8BX,340000,Carmel Terrace,,28771
+jpknight_73,OX10 8DQ,324950,Robert Sparrow Gardens,3,28771
+jpknight_74,OX10 8EP,319950,Newnham Green,2,28771
+jpknight_75,OX10 8LA,335000,Rowland Close,3,19044
+jpknight_76,OX10 9HZ,310000,Willow Court Lane,10,18506
+jpknight_77,OX10 9NR,315000,Pound Lane,4,18506
+jpknight_78,OX10 9QL,319950,Papist Way,,18506
+jpknight_79,OX44 7RF,350000,Chapel Lane,5,26647
+jpknight_80,OX10 0FE,319950,Regency Close,jpknight_null_40,8053
+jpknight_81,OX10 0HN,295000,Croft Road,jpknight_null_41,8053
+jpknight_82,OX10 0SU,295000,Meriden Court,jpknight_null_42,8053
+jpknight_83,OX10 8AB,321000,Sinodun Road,jpknight_null_43,22519
+jpknight_84,OX10 8EP,319950,Newnham Green,jpknight_null_44,28771
+jpknight_85,OX10 8HT,300000,St. Nicholas Road,jpknight_null_45,22519
+jpknight_86,OX10 9HZ,300000,Willow Court Lane,jpknight_null_46,18506
+jpknight_87,OX10 9NR,315000,Pound Lane,jpknight_null_47,18506
+jpknight_88,OX10 9QL,319950,Papist Way,jpknight_null_48,18506
+jpknight_89,OX10 9QY,289950,College Close,jpknight_null_49,17932
+jpknight_90,OX10 0RZ,300000,Grove Cottages,12,32319
+jpknight_91,OX10 0SU,295000,Meriden Court,3,8053
+jpknight_92,OX10 0SU,295000,Meriden Court,3,8053
+jpknight_93,OX10 6ST,285000,Monarchs Court,3,14466
+jpknight_94,OX10 8BG,285000,Crowmarsh Hill,3,28771
+jpknight_95,OX10 8EX,279950,Thames Mead,3,28771
+jpknight_96,OX10 9BD,289950,Wormald Road,3,27599
+jpknight_97,OX10 9GX,295000,Boshers Close,3,18506
+jpknight_98,OX10 9HL,285000,Reading Road,3,18506
+jpknight_99,OX10 9QZ,294500,Kennedy Crescent,3,17932
+jpknight_100,OX10 0DT,279950,Kinecroft,jpknight_null_50,8053
+jpknight_101,OX10 0TE,277500,Charter Way,jpknight_null_51,8053
+jpknight_102,OX10 6ST,279950,Monarchs Court,jpknight_null_52,14466
+jpknight_103,OX10 8BG,275000,Crowmarsh Hill,jpknight_null_53,28771
+jpknight_104,OX10 8EA,285000,The Street,jpknight_null_54,28771
+jpknight_105,OX10 8JJ,275000,Blackstone Road,jpknight_null_55,19044
+jpknight_106,OX10 9LP,279950,West End,jpknight_null_56,17932
+jpknight_107,OX10 9NG,280000,Crescent Way,jpknight_null_57,17932
+jpknight_108,OX10 9PD,289950,Slade Road,jpknight_null_58,17932
+jpknight_109,OX10 9QT,282000,Larkfield,jpknight_null_59,17932
+jpknight_110,OX10 0HQ,265000,Springdale,2,8053
+jpknight_111,OX10 0SU,249950,Meriden Court,2,8053
+jpknight_112,OX10 0SU,249950,Meriden Court,4,8053
+jpknight_113,OX10 0TE,277500,Charter Way,,8053
+jpknight_114,OX10 6LY,249000,Littleworth Road,2,14466
+jpknight_115,OX10 6ST,279950,Monarchs Court,,14466
+jpknight_116,OX10 9AW,254950,St. Johns Road,2,27599
+jpknight_117,OX10 9AW,254950,St. Johns Road,2,27599
+jpknight_118,OX10 9NL,254950,Honey Lane,19,17932
+jpknight_119,OX10 9PE,267500,Cross Road,2,17932
+jpknight_120,OX10 0SU,249950,Meriden Court,jpknight_null_60,8053
+jpknight_121,OX10 0XE,265000,St. Rualds Close,jpknight_null_61,8053
+jpknight_122,OX10 6LY,249000,Littleworth Road,jpknight_null_62,14466
+jpknight_123,OX10 9AW,254950,St. Johns Road,jpknight_null_63,27599
+jpknight_124,OX10 9AW,254950,St. Johns Road,jpknight_null_64,27599
+jpknight_125,OX10 9LB,250000,Wallingford Road,jpknight_null_65,18506
+jpknight_126,OX10 9NL,254950,Honey Lane,jpknight_null_66,17932
+jpknight_127,OX10 9PE,267500,Cross Road,jpknight_null_67,17932
+jpknight_128,OX11 9AE,249950,Clements Green,jpknight_null_68,30917
+jpknight_129,RG8 9NB,247950,Streatley Hill House,jpknight_null_69,
+jpknight_130,OX10 0BW,180000,High Street,,8053
+jpknight_131,OX10 0DX,220000,Church Lane,2,8053
+jpknight_132,OX10 0HN,184950,Croft Road,,8053
+jpknight_133,OX10 0LQ,221500,McMullan Close,2,22519
+jpknight_134,OX10 6NN,247500,Green Close,2,31506
+jpknight_135,OX10 6NX,227500,White Hart Close,2,14466
+jpknight_136,OX10 6NX,237000,White Hart Close,,14466
+jpknight_137,OX10 9AW,200000,St. Johns Road,,27599
+jpknight_138,OX10 9DR,235000,Chiltern Court,,27599
+jpknight_139,OX11 9AE,245000,Clements Green,2,30917
+jpknight_140,OX10 0DX,220000,Church Lane,jpknight_null_70,8053
+jpknight_141,OX10 0LQ,221500,McMullan Close,jpknight_null_71,22519
+jpknight_142,OX10 6LU,175000,Chapel Lane,jpknight_null_72,14466
+jpknight_143,OX10 6NX,230000,White Hart Close,jpknight_null_73,14466
+jpknight_144,OX10 6NX,227500,White Hart Close,jpknight_null_74,14466
+jpknight_145,OX10 8AJ,229950,Wilding Road,jpknight_null_75,19044
+jpknight_146,OX10 8JE,215000,St. Georges Road,jpknight_null_76,19044
+jpknight_147,OX10 9AW,200000,St. Johns Road,jpknight_null_77,27599
+jpknight_148,OX10 9DR,235000,Chiltern Court,jpknight_null_78,27599
+jpknight_149,OX10 9LU,195000,Waterloo Close,jpknight_null_79,18506
+jpknight_150,OX10 6LU,175000,Chapel Lane,1,14466
+jpknight_151,OX10 0HN,175000,Croft Road,jpknight_null_80,8053
+oxlets_0,OX28 6FR,785,oxlets_null_0,2,19066
+oxlets_1,OX18 1TQ,795,oxlets_null_1,2,31541
+oxlets_2,OX28 5JQ,825,Burwell Meadow,2,23556
+oxlets_3,OX28 6GA,675,Corn Street,1,7389
+oxlets_4,OX28 4DB,850,oxlets_null_2,2,19066
+oxlets_5,OX18 1TF,645,Heather Close,1,31541
+oxlets_6,OX28 3ST,825,Manor Road,2,32029
+oxlets_7,OX28 1DD,625,oxlets_null_3,1,31737
+oxlets_8,OX18 1TG,595,Bracken Close,1,31541
+oxlets_9,OX18 3NR,1495,Burford Road,4,29216
+oxlets_10,OX18 3NR,1495,oxlets_null_4,4,29216
+oxlets_11,OX5 1QW,995,Great Close Road,3,26650
+oxlets_12,OX5 1QW,995,oxlets_null_5,3,26650
+oxlets_13,OX28 1EH,840,oxlets_null_6,2,31737
+oxlets_14,OX28 3ST,825,Manor Road,2,32029
+oxlets_15,OX28 2EQ,795,oxlets_null_7,2,19801
+oxlets_16,OX28 6DE,895,oxlets_null_8,2,19066
+oxlets_17,OX28 6DE,895,oxlets_null_9,2,19066
+oxlets_18,OX7 6AG,950,oxlets_null_10,2,31210
+oxlets_19,OX28 3SY,725,Blakes Avenue,2,18904
+oxlets_20,OX18 1TG,595,oxlets_null_11,1,31541
+oxlets_21,OX28 1EG,825,Harvest Way,2,31901
+oxlets_22,OX28 1EG,825,Harvest Way,2,31901
+oxlets_23,OX28 4TQ,695,Lakeside,2,20974
+oxlets_24,OX28 1EH,840,Lavender View,2,31737
+oxlets_25,OX28 5FX,895,Painswick Close,3,30253
+oxlets_26,OX28 5FX,895,Painswick Close,3,30253
+oxlets_27,OX18 3GH,675,oxlets_null_12,2,26082
+oxlets_28,OX28 3SW,1350,oxlets_null_13,4,32029
+oxlets_29,OX28 4TQ,695,oxlets_null_14,2,20974
+oxlets_30,OX28 3SR,840,Manor Road,2,32029
+oxlets_31,OX28 5FG,775,oxlets_null_15,2,24811
+oxlets_32,OX18 3GH,675,oxlets_null_16,2,26082
+oxlets_33,OX28 1BF,800,oxlets_null_17,2,31737
+oxlets_34,OX18 1DF,875,oxlets_null_18,3,25718
+oxlets_35,OX28 6BS,650,Corn Street,2,7389
+oxlets_36,OX28 6GA,695,Corn Street,2,7389
+oxlets_37,OX7 5PT,750,The Green,3,23231
+oxlets_38,OX28 6DE,895,Woodford Mill,2,19066
+oxlets_39,OX29 7RA,875,Woodlands,3,25409
+oxlets_40,OX28 6GA,695,Corn Street,2,7389
+oxlets_41,OX29 7RA,875,Woodlands,3,25409
+oxlets_42,OX18 1TQ,725,Bracken Close,2,31541
+oxlets_43,OX28 4AT,895,oxlets_null_19,2,7389
+oxlets_44,OX29 7QE,1250,oxlets_null_20,3,31191
+oxlets_45,OX29 7QE,1250,oxlets_null_21,3,31191
+oxlets_46,OX18 1TF,645,Heather Close,1,31541
+oxlets_47,OX29 7TA,1400,Heyford Close,4,27825
+oxlets_48,OX18 2JJ,725,oxlets_null_22,2,26542
+oxlets_49,OX28 5FX,895,Painswick Close,3,30253
+oxlets_50,OX28 1EY,1050,oxlets_null_23,4,31901
+trinity_0,B63 2TD,525,Talbot Street,2,
+trinity_1,B67 7EE,495,Park Mews,2,
+trinity_2,B69 2HP,500,Twydale Avenue,3,
+trinity_3,B69 2LX,500,Alexandra Way,2,
+trinity_4,DY1 1EH,320,Priory Street,1,
+trinity_5,DY1 1EH,435,Priory Street,2,
+trinity_6,DY1 1EH,515,Priory Street,2,
+trinity_7,DY1 1JE,525,Metropolitan Lofts,2,
+trinity_8,DY1 3AD,330,Wolverhampton Street,,
+trinity_9,DY1 4AJ,465,Aldeney Close,1,
+trinity_10,DY2 7BT,395,Hall Street,1,
+trinity_11,DY2 7NA,425,Green Park Road,2,
+trinity_12,DY2 9BU,575,Baptist End Road,1,
+trinity_13,DY2 9HU,450,Windmill End,2,
+trinity_14,DY2 9LJ,675,Oak Street,3,
+trinity_15,DY4 8ND,595,Queens Road,3,
+trinity_16,DY4 9SR,650,Harper Grove,3,
+trinity_17,DY5 4HY,495,Tennyson Street,2,
+trinity_18,WV2 2LS,550,John Street,3,
+trinity_19,WV8 1XA,525,Ryefield,3,
+trinity_20,B69 2LX,375,Alexandra Way,1,
+trinity_21,B69 2LX,350,Alexandra Way,1,
+trinity_22,DY1 1PY,400,High Street,2,
+trinity_23,DY1 3BQ,480,Pebworth Grove,2,
+trinity_24,DY1 4EH,375,Priory Road,2,
+trinity_25,WV14 9DP,395,Castle Street,2,
+trinity_26,WV2 2LZ,575,George Street,3,
+trinity_27,trinity_null_0,225000,trinity_null_66,4,
+trinity_28,trinity_null_1,69950,trinity_null_67,1,
+trinity_29,trinity_null_2,99950,trinity_null_68,3,
+trinity_30,trinity_null_3,112995,trinity_null_69,3,
+trinity_31,trinity_null_4,64950,trinity_null_70,1,
+trinity_32,trinity_null_5,98500,trinity_null_71,1,
+trinity_33,trinity_null_6,119950,trinity_null_72,2,
+trinity_34,trinity_null_7,159950,trinity_null_73,3,
+trinity_35,trinity_null_8,99950,trinity_null_74,2,
+trinity_36,trinity_null_9,103500,trinity_null_75,2,
+trinity_37,trinity_null_10,114950,trinity_null_76,2,
+trinity_38,trinity_null_11,149950,Regent Road,4,
+trinity_39,trinity_null_12,87000,Springfield,2,
+trinity_40,trinity_null_13,107000,trinity_null_77,2,
+trinity_41,trinity_null_14,325000,trinity_null_78,3,
+trinity_42,trinity_null_15,139995,trinity_null_79,3,
+trinity_43,trinity_null_16,140000,trinity_null_80,3,
+trinity_44,trinity_null_17,90000,Willow Road,2,
+trinity_45,trinity_null_18,119950,trinity_null_81,2,
+trinity_46,trinity_null_19,225000,trinity_null_82,4,
+trinity_47,trinity_null_20,69950,trinity_null_83,1,
+trinity_48,trinity_null_21,99950,trinity_null_84,3,
+trinity_49,trinity_null_22,112995,trinity_null_85,3,
+trinity_50,trinity_null_23,64950,trinity_null_86,1,
+trinity_51,trinity_null_24,98500,trinity_null_87,1,
+trinity_52,trinity_null_25,119950,trinity_null_88,2,
+trinity_53,trinity_null_26,159950,trinity_null_89,3,
+trinity_54,trinity_null_27,99950,trinity_null_90,2,
+trinity_55,trinity_null_28,103500,trinity_null_91,2,
+trinity_56,trinity_null_29,114950,trinity_null_92,2,
+trinity_57,trinity_null_30,149950,trinity_null_93,4,
+trinity_58,trinity_null_31,87000,trinity_null_94,2,
+trinity_59,trinity_null_32,107000,trinity_null_95,2,
+trinity_60,trinity_null_33,325000,trinity_null_96,3,
+trinity_61,trinity_null_34,139995,trinity_null_97,3,
+trinity_62,trinity_null_35,140000,trinity_null_98,3,
+trinity_63,trinity_null_36,90000,trinity_null_99,2,
+trinity_64,trinity_null_37,119950,trinity_null_100,2,
+trinity_65,trinity_null_38,199950,trinity_null_101,3,
+trinity_66,trinity_null_39,109950,trinity_null_102,4,
+trinity_67,trinity_null_40,132950,trinity_null_103,3,
+trinity_68,trinity_null_41,159950,trinity_null_104,3,
+trinity_69,trinity_null_42,120000,trinity_null_105,2,
+trinity_70,trinity_null_43,112500,trinity_null_106,2,
+trinity_71,trinity_null_44,99950,trinity_null_107,2,
+trinity_72,trinity_null_45,124950,trinity_null_108,2,
+trinity_73,trinity_null_46,109950,trinity_null_109,2,
+trinity_74,trinity_null_47,59950,trinity_null_110,2,
+trinity_75,trinity_null_48,121950,trinity_null_111,2,
+trinity_76,trinity_null_49,125000,trinity_null_112,4,
+trinity_77,trinity_null_50,94950,trinity_null_113,3,
+trinity_78,trinity_null_51,174950,trinity_null_114,3,
+trinity_79,trinity_null_52,169950,trinity_null_115,2,
+trinity_80,trinity_null_53,122000,trinity_null_116,3,
+trinity_81,trinity_null_54,164995,trinity_null_117,3,
+trinity_82,trinity_null_55,114950,trinity_null_118,2,
+trinity_83,trinity_null_56,179950,trinity_null_119,3,
+trinity_84,trinity_null_57,125950,trinity_null_120,3,
+trinity_85,trinity_null_58,86950,trinity_null_121,1,
+trinity_86,trinity_null_59,79950,trinity_null_122,2,
+trinity_87,trinity_null_60,99950,trinity_null_123,3,
+trinity_88,trinity_null_61,85500,trinity_null_124,2,
+trinity_89,trinity_null_62,110000,trinity_null_125,2,
+trinity_90,trinity_null_63,49950,trinity_null_126,2,
+trinity_91,trinity_null_64,89950,trinity_null_127,3,
+trinity_92,trinity_null_65,54950,trinity_null_128,1,
