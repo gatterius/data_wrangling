@@ -5,7 +5,6 @@ from sklearn.decomposition import PCA
 import jellyfish  # for distance functions
 from fuzzywuzzy import fuzz  # for distance functions
 import numpy as np  # to process numeric arrays
-from sklearn import random_projection
 
 # calculate the distance between two given strings
 def get_distance(string_a, string_b):

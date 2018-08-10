@@ -2,7 +2,6 @@ import pandas as pd
 import profiling
 import matching
 import mapping
-import gt_comparison
 
 #############################
 # meta information to be used in any workflow

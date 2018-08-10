@@ -1,10 +1,10 @@
 import pandas as pd
-from demo import profiling
-from demo import matching
-from demo import mapping
-from demo import repair
-from demo import transformation
-from demo import deduplication
+from units import profiling
+from units import matching
+from units import mapping
+from units import repair
+from units import transformation
+from units import deduplication
 
 
 target_schema = {'street_name': 'str',

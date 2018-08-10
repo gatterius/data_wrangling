@@ -1,11 +1,10 @@
 import pandas as pd
-from demo import profiling
-from demo import matching
-from demo import mapping
-from demo import repair
-from demo import transformation
-from demo import deduplication
-from demo import gt_comparison
+from units import profiling
+from units import matching
+from units import mapping
+from units import repair
+from units import transformation
+from units import deduplication
 
 #############################
 # meta information to be used in any workflow
@@ -56,7 +55,7 @@ distance_threshold = 0.995
 # profiling
 result = %timeit -o profiling.load_data(folder_main, folder_context, main_data_names, additional_data_names, reference_data_names, pk_list, fk_list)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data profiling\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -65,7 +64,7 @@ datasets, datasets_composition, schemas = profiling.load_data(folder_main, folde
 # matching
 result = %timeit -o matching.match_schemas(schemas, target_schema)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data matching\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -79,7 +78,7 @@ datasets, schemas = matching.rename_columns(datasets, schemas, match_list, datas
 
 result = %timeit -o mapping.union_and_join(datasets, datasets_composition, match_list, target_schema, add_data_columns, 'inner', 'postcode')
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data mapping (union and inner join)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -90,7 +89,7 @@ inner_data = inner_data[['provenance','postcode', 'price', 'street_name', 'bedro
 
 result = %timeit -o mapping.union_and_join(datasets, datasets_composition, match_list, target_schema, add_data_columns, 'left', 'postcode')
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data mapping (union and left outer join)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -109,7 +108,7 @@ repaired_columns = ['street_name']
 
 result = %timeit -o repair.repair_with_reference(inner_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data repair (normal, inner join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -117,7 +116,7 @@ inner_reference_data = repair.repair_with_reference(inner_data, datasets, datase
 
 result = %timeit -o repair.repair_with_reference(outer_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data repair (normal, outer join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -125,7 +124,7 @@ outer_reference_data = repair.repair_with_reference(outer_data, datasets, datase
 
 result = %timeit -o repair.repair_with_fds(inner_data, fd_list, cfds)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data repair (normal, inner join, CFDs)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -134,7 +133,7 @@ inner_fds_data = repair.repair_with_fds(inner_data, fd_list, cfds)
 
 result = %timeit -o repair.repair_with_fds(outer_data, fd_list, cfds)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Data repair (normal, outer join, CFDs)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -149,7 +148,7 @@ def transform(tr_data):
 
 result = %timeit -o transform(inner_reference_data)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Transformation (normal, inner join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -160,7 +159,7 @@ inner_reference_data = transformation.clean_numeric(inner_reference_data, target
 
 result = %timeit -o transform(outer_reference_data)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Transformation (normal, outer join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -171,7 +170,7 @@ outer_reference_data = transformation.clean_numeric(outer_reference_data, target
 
 result = %timeit -o transform(inner_fds_data)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Transformation (normal, inner join, CFDs, spaces)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -181,7 +180,7 @@ inner_fds_data = transformation.clean_numeric(inner_fds_data, target_schema)
 
 result = %timeit -o transform(outer_fds_data)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Transformation (normal, outer join, CFDs, spaces)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -193,7 +192,7 @@ outer_fds_data = transformation.clean_numeric(outer_fds_data, target_schema)
 
 result = %timeit -o deduplication.deduplicate(inner_reference_data, distance_threshold, pca_components_number, mean_shift_quantile)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Deduplication (normal, inner join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -201,7 +200,7 @@ inner_reference_data = deduplication.deduplicate(inner_reference_data, distance_
 
 result = %timeit -o deduplication.deduplicate(outer_reference_data , distance_threshold, pca_components_number, mean_shift_quantile)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Deduplication (normal, outer join, reference)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -209,7 +208,7 @@ outer_reference_data = deduplication.deduplicate(outer_reference_data , distance
 
 result = %timeit -o deduplication.deduplicate(inner_fds_data, distance_threshold, pca_components_number, mean_shift_quantile)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Deduplication (normal, inner join, CFDs)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -217,7 +216,7 @@ inner_fds_data = deduplication.deduplicate(inner_fds_data, distance_threshold, p
 
 result = %timeit -o deduplication.deduplicate(outer_fds_data, distance_threshold, pca_components_number, mean_shift_quantile)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Deduplication (normal, outer join, CFDs)\n')
 results_file.write(result + '\n')
 results_file.close()
@@ -228,7 +227,7 @@ outer_fds_data = deduplication.deduplicate(outer_fds_data, distance_threshold, p
 match_list = matching.match_schemas(schemas, target_schema)
 datasets, schemas = matching.rename_columns(datasets, schemas, match_list, datasets_composition['main'])
 
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('\n\nRepairing original data\n')
 results_file.close()
 
@@ -239,7 +238,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o repair.repair_with_reference(dataset, datasets, datasets_composition, data_context_columns, schema, dataset.columns)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Repair (reference)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -247,7 +246,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o transformation.clean_spaces(reference_data)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Transform (reference, spaces)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -255,7 +254,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o transformation.clean_numeric(reference_data, target_schema)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Transform (reference, numeric)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -273,7 +272,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o repair.repair_with_fds(dataset, fd_list, cfds)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Repair (CFDs)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -281,7 +280,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o transformation.clean_spaces(fds_data)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Transform (CFDs, spaces)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -289,7 +288,7 @@ for i in datasets_composition['main']:
 
     result = % timeit -o transformation.clean_numeric(fds_data, target_schema)
     result = str(result)
-    results_file = open('demo/Data/unit_time_results.txt', 'a')
+    results_file = open('units/Data/unit_time_results.txt', 'a')
     results_file.write('Transform (CFDs, numeric)\n')
     results_file.write(result + '\n')
     results_file.close()
@@ -321,21 +320,21 @@ def transform_original(datasets):
 
 result = % timeit -o repair_original_ref(datasets)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Repair original (ref)\n')
 results_file.write(result + '\n')
 results_file.close()
 
 result = % timeit -o repair_original_fds(datasets)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Repair original (CFDs)\n')
 results_file.write(result + '\n')
 results_file.close()
 
 result = % timeit -o transform_original(datasets)
 result = str(result)
-results_file = open('demo/Data/unit_time_results.txt', 'a')
+results_file = open('units/Data/unit_time_results.txt', 'a')
 results_file.write('Transform original \n')
 results_file.write(result + '\n')
 results_file.close()

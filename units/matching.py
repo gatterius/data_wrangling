@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np  # to process numeric arrays
 import scipy.optimize as op  # to perform linear sum assignment
-from demo import util_functions
+import util_functions
 import jellyfish  # for distance functions
 from fuzzywuzzy import fuzz  # for distance functions
 

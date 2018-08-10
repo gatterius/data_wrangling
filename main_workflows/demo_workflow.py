@@ -5,7 +5,6 @@ import mapping
 import repair
 import transformation
 import deduplication
-import gt_comparison
 
 #############################
 # meta information to be used in any workflow

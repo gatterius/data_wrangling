@@ -1,7 +1,4 @@
-# import all needed libraries
-
 import pandas as pd # for general data processing
-from demo import util_functions
 
 
 # load data and create meta data

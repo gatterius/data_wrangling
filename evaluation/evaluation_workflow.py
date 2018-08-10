@@ -1,5 +1,4 @@
 import pandas as pd # for general data processing
-import numpy as np
 import gt_comparison
 
 schema = {'provenance': str,
@@ -34,26 +33,6 @@ output_outer_names =['no_repair_outer.csv',
                       'map_after_repair_outer_fds.csv',
                       'repair_after_union_outer_reference.csv',
                       'repair_after_union_outer_fds.csv']
-
-# results_file = open('Data/eval_results_new.txt', 'a')
-# results_file.write('\n\nStrict metrics threshold: ' + str(strict_threshold) + '\n')
-# results_file.close()
-
-# for i in range(0, len(output_inner_names)):
-#     output = pd.read_csv('Data/results/' + output_inner_names[i], dtype=schema)
-#     result = gt_comparison.compare_datasets(output, ground_truth_inner, pk_attribute, strict_threshold, strict_runs)
-#     results_file = open('Data/eval_results_new.txt', 'a')
-#     results_file.write('\n' + output_inner_names[i] + '\n')
-#     results_file.write(result)
-#     results_file.close()
-#
-# for i in range(0, len(output_outer_names)):
-#     output = pd.read_csv('Data/results/' + output_outer_names[i], dtype=schema)
-#     result = gt_comparison.compare_datasets(output, ground_truth_outer, pk_attribute, strict_threshold, strict_runs)
-#     results_file = open('Data/eval_results_new.txt', 'a')
-#     results_file.write('\n' + output_outer_names[i] + '\n')
-#     results_file.write(result)
-#     results_file.close()
 
 output_columns = ['metric approach', 'encoding', 'TP', 'FP', 'FN', 'precision', 'recall', 'f-measure']
 
