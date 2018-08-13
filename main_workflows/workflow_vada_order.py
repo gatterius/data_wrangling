@@ -62,16 +62,19 @@ groundtruth_outer = pd.read_csv('data/groundtruth_outer.csv')
 
 datasets, datasets_composition, schemas = profiling.load_data(folder_main, folder_context, main_data_names, additional_data_names,
                                                               reference_data_names, pk_list, fk_list)
-# profiling.print_metadata(schemas)
 
 match_list = matching.match_schemas(schemas, target_schema)
 datasets, schemas = matching.rename_columns(datasets, schemas, match_list, datasets_composition['main'])
 
-inner_data = mapping.union_and_join(datasets, datasets_composition, match_list, target_schema, add_data_columns, 'inner', 'postcode')
-inner_data = inner_data[['provenance','postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
+# union datasets
+unionized_data = mapping.union_data(datasets, datasets_composition, match_list, target_schema)
 
-outer_data = mapping.union_and_join(datasets, datasets_composition, match_list, target_schema, add_data_columns, 'left', 'postcode')
-outer_data = outer_data[['provenance','postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
+# join additional data
+inner_joined_data = mapping.join_additional_data(unionized_data, datasets, datasets_composition, add_data_columns, 'inner', 'postcode')
+inner_joined_data = inner_joined_data[['provenance', 'postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
+
+outer_joined_data = mapping.join_additional_data(unionized_data, datasets, datasets_composition, add_data_columns, 'left', 'postcode')
+outer_joined_data = outer_joined_data[['provenance', 'postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
 
 target_schema['crimerank'] = 'int-added'
 
@@ -80,11 +83,11 @@ target_schema['crimerank'] = 'int-added'
 data_context_columns = ['postcode', 'street_name']
 repaired_columns = ['street_name']
 
-inner_reference_data = repair.repair_with_reference(inner_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
-outer_reference_data = repair.repair_with_reference(outer_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
+inner_reference_data = repair.repair_with_reference(inner_joined_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
+outer_reference_data = repair.repair_with_reference(outer_joined_data, datasets, datasets_composition, data_context_columns, target_schema, repaired_columns)
 
-inner_fds_data = repair.repair_with_fds(inner_data, fd_list, cfds)
-outer_fds_data = repair.repair_with_fds(outer_data, fd_list, cfds)
+inner_fds_data = repair.repair_with_fds(inner_joined_data, fd_list, cfds)
+outer_fds_data = repair.repair_with_fds(outer_joined_data, fd_list, cfds)
 
 # transform data
 

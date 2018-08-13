@@ -11,13 +11,16 @@ import util_functions
 # 3. if field of dataset is empty, find a corresponding field in data context and fill the field in using found value
 def use_reference(dataset, reference_data, target_schema, repaired_columns):
     # iterate through all columns in the dataset
-    for outer_counter in range(0, len(dataset.columns)):
+    columns = dataset.columns
+    col_number = len(columns)
+    for outer_counter in range(0, col_number):
         # extract the name of current column
         dataset_attr_name = dataset.columns[outer_counter]
 
         # repair only original data
-        # if dataset_attr_name in repaired_columns and 'added' not in target_schema[dataset_attr_name] and 'id' not in target_schema[dataset_attr_name]:
-        if dataset_attr_name in repaired_columns:
+        if dataset_attr_name in repaired_columns and dataset_attr_name in reference_data.columns and \
+                'added' not in target_schema[dataset_attr_name] and 'id' not in target_schema[dataset_attr_name]:
+        # if dataset_attr_name in repaired_columns:
             print(str(dataset_attr_name))
             # iterate through all values in current column
             for dataset_row_counter in range(0, dataset.shape[0]):
@@ -33,10 +36,11 @@ def use_reference(dataset, reference_data, target_schema, repaired_columns):
                     # iterate through all values of column with the same name in the reference data
                     for reference_row_counter in range(0, reference_data.shape[0]):
                         # if reference value is a substring of value in the main dataset
-                        if dataset_attr_name in reference_data.columns and \
-                                reference_data[dataset_attr_name].iloc[reference_row_counter] in dataset[dataset_attr_name].iloc[dataset_row_counter]:
+                        dataset_value = dataset[dataset_attr_name].iloc[dataset_row_counter]
+                        reference_value = reference_data[dataset_attr_name].iloc[reference_row_counter]
+                        if reference_value in dataset_value:
                             # extract reference value and replace value in the main dataset with it
-                            new_value = reference_data[dataset_attr_name].iloc[dataset_row_counter]
+                            new_value = reference_data[dataset_attr_name].iloc[reference_row_counter]
                             dataset[dataset_attr_name].iloc[dataset_row_counter] = new_value
                             break
 

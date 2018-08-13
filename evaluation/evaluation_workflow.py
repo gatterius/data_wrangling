@@ -1,5 +1,5 @@
 import pandas as pd # for general data processing
-import gt_comparison
+from evaluation import gt_comparison
 
 schema = {'provenance': str,
           'postcode': str,

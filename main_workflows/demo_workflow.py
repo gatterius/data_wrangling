@@ -35,11 +35,7 @@ for name in main_data_names:
     fk_list[name] = []
 
 
-
-# used columns from additional data
-
-
-# FDs
+# FDs and CFDs
 #fd_list = [['street_name', 'postcode']]
 fd_list = []
 cfds = pd.read_csv('Data/real_estate/context_data/cfds.csv')
@@ -72,8 +68,13 @@ datasets, schemas = matching.rename_columns(datasets, schemas, match_list, datas
 
 # map data and reorder columns
 add_data_columns = ['postcode', 'crimerank']
-mapped_data = mapping.union_and_join(datasets, datasets_composition, match_list, target_schema, add_data_columns, 'inner', 'postcode')
-mapped_data = mapped_data[['provenance','postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
+
+# union datasets
+unionized_data = mapping.union_data(datasets, datasets_composition, match_list, target_schema)
+
+# join additional data
+inner_joined_data = mapping.join_additional_data(unionized_data, datasets, datasets_composition, add_data_columns, 'inner', 'postcode')
+inner_joined_data = inner_joined_data[['provenance', 'postcode', 'price', 'street_name', 'bedroom_number', 'crimerank']]
 # adjust data schema
 target_schema['crimerank'] = 'int-added'
 
@@ -83,8 +84,8 @@ target_schema['crimerank'] = 'int-added'
 data_context_columns = ['postcode', 'street_name']
 non_repaired_columns = ['provenance', 'postcode', 'crimerank']
 # use reference and CFDs to repair data
-reference_repaired_data = repair.repair_with_reference(mapped_data, datasets, datasets_composition, data_context_columns, target_schema, non_repaired_columns)
-fds_repaired_data = repair.repair_with_fds(mapped_data, fd_list, cfds)
+reference_repaired_data = repair.repair_with_reference(inner_joined_data, datasets, datasets_composition, data_context_columns, target_schema, non_repaired_columns)
+fds_repaired_data = repair.repair_with_fds(inner_joined_data, fd_list, cfds)
 
 # transform data
 
@@ -98,3 +99,8 @@ transformed_fds_data = transformation.clean_numeric(transformed_fds_data, target
 
 deduplicated_reference_data = deduplication.deduplicate(transformed_reference_data, distance_threshold, pca_components_number, mean_shift_quantile)
 deduplicated_fds_data = deduplication.deduplicate(transformed_fds_data, distance_threshold, pca_components_number, mean_shift_quantile)
+
+# save data in CSV files
+
+deduplicated_reference_data.to_csv('data/results/deduplicated_reference_data.csv', sep=',', encoding='utf-8', index=False)
+deduplicated_fds_data.to_csv('data/results/deduplicated_fds_data.csv', sep=',', encoding='utf-8', index=False)

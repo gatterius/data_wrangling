@@ -9,7 +9,7 @@ def clean_numeric(dataset, target_schema):
     # iterate through all columns in the dataset
     for i in range(0, len(dataset.columns)):
         dataset_attr_name = dataset.columns[i]
-        if dataset_attr_name in target_schema.keys() and target_schema[dataset_attr_name] == 'int':
+        if dataset_attr_name in target_schema.keys() and 'added' not in target_schema[dataset_attr_name] and target_schema[dataset_attr_name] == 'int':
             # find all numeric words and replace them with numbers
             try:
                 dataset[dataset_attr_name] = w2n.word_to_num(str(dataset[dataset_attr_name]))
@@ -18,7 +18,7 @@ def clean_numeric(dataset, target_schema):
             # remove all symbols except digits
             column = dataset[dataset_attr_name]
             column = column.reset_index(drop=True)
-            column = find_regex(column , '\d+[,.]?\d*')
+            column = find_regex(column, '\d+([,.]?\d*)*')
             column = replace_symbol(column , ',', '')
             dataset[dataset_attr_name] = column
 
